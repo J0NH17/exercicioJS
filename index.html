@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix Informática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TechFix Informática</h1>
+        <p>Manutenção e suporte para seu computador &#x1F6E0</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Manutenção e suporte para seu computador &#x1F6E0</h2>
+            
+
+        </section>
+        <section id="servicos">
+            <h2> Orçamento de Serviços</h2>
+            <p>Nome do cliente:</p>
+            <input type="text" placeholder="Digite seu nome ..." id="nome">
+            
+            <p>Escolha um serviços:</p>
+            <select name="servico" id="">
+                
+                <option value="servico1">Formatação de computador	R$ 120,00</option>
+                <option value="servico2">Limpeza e manutenção	    R$ 80,00</option>
+                <option value="servico3">Instalação de programas	R$ 50,00</option>
+                <option value="servico4">Backup de arquivos	        R$ 100,00</option>
+
+            </select>
+
+            <div>
+                <button  onclick="orcamento()">Calcular Orçamento</button>
+                <p id="resultado"></p>
+                
+                    
+            </div>
+
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <p>E-mail: contato@TechFixInfo.com.br</p>
+
+            <p>Telefone: (34)99999-9999</p>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>TechFix Informática - 2026 &reg </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
