@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="TechFix.ico" type="image/x-icon">   <!-- Icone no topo da página -->
     <title>TechFix Informática</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
     <header>
         <h1>TechFix Informática</h1>
         <p>Manutenção e suporte para seu computador &#x1F6E0</p>
@@ -19,20 +21,22 @@
 
     </nav>
     <main>
+        
         <section id="inicio">
-            <h2>Manutenção e suporte para seu computador &#x1F6E0</h2>
-            
+            <h2>Manutenção e suporte para seu computador &#x1F6E0</h2>   
+            <!-- Titulo com código de emoji de ferramenta -->
 
         </section>
         <section id="servicos">
-            <h2> Orçamento de Serviços</h2>
-            <p>Nome do cliente:</p>
-            <input type="text" placeholder="Digite seu nome ..." id="nome">
             <div>
+                <h2> Orçamento de Serviços</h2>
+                <p>Nome do cliente:</p>
+                <input type="text" placeholder="Digite seu nome ..." id="nome">
 
                 <p>Escolha um serviços:</p>
+
                 <select id="servico" >
-                    
+                    <!-- Opções de serviços  -->
                     <option value="formatar">Formatação de computador	R$ 120,00</option>
                     <option value="limpar">Limpeza e manutenção	    R$ 80,00</option>
                     <option value="instalar">Instalação de programas	R$ 50,00</option>
@@ -40,10 +44,13 @@
                     
                 </select>
             </div>
+            <!-- espaço para exibir orçamento -->
 
             <div>
                 <button  onclick="orcamento()">Calcular Orçamento</button>
-                <div class="orcamento">
+
+                <div class="orcamento"> 
+                    <!-- Div escura que exibe os resultados nos parágrafos abaixo -->
                     <p id="saudar"></p>
                     <p id="serviconome"></p>
                     <p id="valorServico"></p>
@@ -53,8 +60,10 @@
             </div>
 
         </section>
+        
 
         <section id="contato">
+            <!-- isso tá usando umm id vindo do css com "#" -->
             <h2>Contato</h2>
 
             <p>E-mail: contato@TechFixInfo.com.br</p>
