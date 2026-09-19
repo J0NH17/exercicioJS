@@ -28,21 +28,27 @@
             <h2> Orçamento de Serviços</h2>
             <p>Nome do cliente:</p>
             <input type="text" placeholder="Digite seu nome ..." id="nome">
-            
-            <p>Escolha um serviços:</p>
-            <select name="servico" id="">
-                
-                <option value="servico1">Formatação de computador	R$ 120,00</option>
-                <option value="servico2">Limpeza e manutenção	    R$ 80,00</option>
-                <option value="servico3">Instalação de programas	R$ 50,00</option>
-                <option value="servico4">Backup de arquivos	        R$ 100,00</option>
+            <div>
 
-            </select>
+                <p>Escolha um serviços:</p>
+                <select id="servico" >
+                    
+                    <option value="formatar">Formatação de computador	R$ 120,00</option>
+                    <option value="limpar">Limpeza e manutenção	    R$ 80,00</option>
+                    <option value="instalar">Instalação de programas	R$ 50,00</option>
+                    <option value="salvar">Backup de arquivos	        R$ 100,00</option>
+                    
+                </select>
+            </div>
 
             <div>
                 <button  onclick="orcamento()">Calcular Orçamento</button>
-                <p id="resultado"></p>
-                
+                <div class="orcamento">
+                    <p id="saudar"></p>
+                    <p id="serviconome"></p>
+                    <p id="valorServico"></p>
+
+                </div>
                     
             </div>
 
